@@ -1,0 +1,104 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+#mainbody {
+    margin: 0 10% 0 10%;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.logo {
+    height: 100%;
+    width: 24%;
+    float: left;
+}
+
+.menuler {
+    width: 60%;
+    padding: 57px 0 0 33%;
+}
+
+.medyalar {
+    float: right;
+    margin-top: -30px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 12%;
+}
+
+pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgray;
+}
+
+.header ul li a {
+    color: #000000;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+    .header ul li a:hover, header ul li a:focus {
+        color: #00ff00;
+        text-decoration: none;
+    }
+
+.hazir_diyetler {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.Alanlar {
+    flex: 1;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+    .Alanlar a {
+        text-decoration: none;
+    }
+
+footer {
+    background-color: #101015;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
+.fotdiv {
+    width: 45%;
+    padding-left: 5%;
+}
+
+    .fotdiv a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .fotdiv ul li a:hover, .fotdiv ul li a:focus {
+        color: #00ff00;
+        text-decoration: underline;
+    }
+
+hr {
+    width: 50%;
+    color: gray;
+    background-color: gray;
+    padding-left: 30%;
+}
+
+.fotdiv p, .fotdiv a {
+    color: gray;
+    font-size: large;
+}

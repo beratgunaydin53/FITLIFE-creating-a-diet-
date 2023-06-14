@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FITLIFE", "FITLIFE\", "{E586D143-2C55-458D-90BE-EE4838A0198F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55799"
+		Debug.AspNetCompiler.PhysicalPath = "FITLIFE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55799\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55799"
+		Release.AspNetCompiler.PhysicalPath = "FITLIFE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55799\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55799"
+		SlnRelativePath = "FITLIFE\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E586D143-2C55-458D-90BE-EE4838A0198F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E586D143-2C55-458D-90BE-EE4838A0198F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578B0FA5-88C9-4997-B4A7-356566DA1365}
+	EndGlobalSection
+EndGlobal
