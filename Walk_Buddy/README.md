@@ -1,0 +1,1 @@
+Walk_buddy bir kodular.io uygulamasıdır ve pedometer sensörüyle adım saymayı amaçlar. TinyDB local veritabanı kullanarak bir haftada atığımız adım sayısı,harcanan kalori,uzaklık ve yaptığımız yürüyüş(dakika) olarak kaydedilir
