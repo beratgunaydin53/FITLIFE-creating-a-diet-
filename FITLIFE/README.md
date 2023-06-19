@@ -1,2 +1,0 @@
-Fitlife projesi sağlıklı kilo vermek için geliştirilmektedik bu proje kullanıcının bilgilerini alarak kendisine uygun diyet listesi vermektedir şuan için sadece günlük kalori ihtiyacına göre diyet listesi veriyor ve geliştirilecektir
-PROJE_VERİTABANI dosyalarını mssql server ile çalışmaktadır
