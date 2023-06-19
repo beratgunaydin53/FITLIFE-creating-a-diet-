@@ -1,0 +1,39 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbody {
+    margin: 0 10% 0 10%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.mainbody h1, .mainbody h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.mainbody h1 {
+    font-size: 36px;
+}
+
+.mainbody h2 {
+    font-size: 24px;
+}
+
+.mainbody ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainbody li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,1 @@
+first you go through the documents folder and then you can look at the FITLIFE project.

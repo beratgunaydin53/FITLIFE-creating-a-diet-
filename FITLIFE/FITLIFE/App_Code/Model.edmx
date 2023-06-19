@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PROJE_VERITABANIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AKSAM_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YIYECEK_ADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="KALORI_MIKTARI" Type="int" />
+          <Property Name="GRAM" Type="int" />
+        </EntityType>
+        <EntityType Name="ARA_OGUNLER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YIYECEK_ADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="KALORI_MIKTARI" Type="int" />
+          <Property Name="GRAM" Type="int" />
+        </EntityType>
+        <EntityType Name="KULLANICI_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KULLANICIADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="SIFRE" Type="nvarchar" MaxLength="50" />
+          <Property Name="YETKILIMI" Type="bit" />
+        </EntityType>
+        <EntityType Name="MESAJLAR_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ADISOYADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="EPOSTA" Type="nvarchar" MaxLength="50" />
+          <Property Name="KONU" Type="nvarchar" MaxLength="50" />
+          <Property Name="MESAJ" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="OGLE_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YIYECEK_ADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="KALORI_MIKTARI" Type="int" />
+          <Property Name="GRAM" Type="int" />
+        </EntityType>
+        <EntityType Name="SABAH_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="YIYECEK_ADI" Type="nvarchar" MaxLength="50" />
+          <Property Name="KALORI_MIKTARI" Type="int" />
+          <Property Name="GRAM" Type="int" />
+        </EntityType>
+        <EntityContainer Name="PROJE_VERITABANIModelStoreContainer">
+          <EntitySet Name="AKSAM_LISTESI" EntityType="Self.AKSAM_LISTESI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ARA_OGUNLER" EntityType="Self.ARA_OGUNLER" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KULLANICI_LISTESI" EntityType="Self.KULLANICI_LISTESI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MESAJLAR_LISTESI" EntityType="Self.MESAJLAR_LISTESI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OGLE_LISTESI" EntityType="Self.OGLE_LISTESI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SABAH_LISTESI" EntityType="Self.SABAH_LISTESI" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PROJE_VERITABANIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AKSAM_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YIYECEK_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KALORI_MIKTARI" Type="Int32" />
+          <Property Name="GRAM" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ARA_OGUNLER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YIYECEK_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KALORI_MIKTARI" Type="Int32" />
+          <Property Name="GRAM" Type="Int32" />
+        </EntityType>
+        <EntityType Name="KULLANICI_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KULLANICIADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SIFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="YETKILIMI" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="MESAJLAR_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ADISOYADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EPOSTA" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KONU" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MESAJ" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="OGLE_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YIYECEK_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KALORI_MIKTARI" Type="Int32" />
+          <Property Name="GRAM" Type="Int32" />
+        </EntityType>
+        <EntityType Name="SABAH_LISTESI">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="YIYECEK_ADI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KALORI_MIKTARI" Type="Int32" />
+          <Property Name="GRAM" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="veritabani" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AKSAM_LISTESI" EntityType="Self.AKSAM_LISTESI" />
+          <EntitySet Name="ARA_OGUNLER" EntityType="Self.ARA_OGUNLER" />
+          <EntitySet Name="KULLANICI_LISTESI" EntityType="Self.KULLANICI_LISTESI" />
+          <EntitySet Name="MESAJLAR_LISTESI" EntityType="Self.MESAJLAR_LISTESI" />
+          <EntitySet Name="OGLE_LISTESI" EntityType="Self.OGLE_LISTESI" />
+          <EntitySet Name="SABAH_LISTESI" EntityType="Self.SABAH_LISTESI" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PROJE_VERITABANIModelStoreContainer" CdmEntityContainer="veritabani">
+          <EntitySetMapping Name="AKSAM_LISTESI">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.AKSAM_LISTESI">
+              <MappingFragment StoreEntitySet="AKSAM_LISTESI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="YIYECEK_ADI" ColumnName="YIYECEK_ADI" />
+                <ScalarProperty Name="KALORI_MIKTARI" ColumnName="KALORI_MIKTARI" />
+                <ScalarProperty Name="GRAM" ColumnName="GRAM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ARA_OGUNLER">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.ARA_OGUNLER">
+              <MappingFragment StoreEntitySet="ARA_OGUNLER">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="YIYECEK_ADI" ColumnName="YIYECEK_ADI" />
+                <ScalarProperty Name="KALORI_MIKTARI" ColumnName="KALORI_MIKTARI" />
+                <ScalarProperty Name="GRAM" ColumnName="GRAM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KULLANICI_LISTESI">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.KULLANICI_LISTESI">
+              <MappingFragment StoreEntitySet="KULLANICI_LISTESI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="KULLANICIADI" ColumnName="KULLANICIADI" />
+                <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+                <ScalarProperty Name="YETKILIMI" ColumnName="YETKILIMI" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MESAJLAR_LISTESI">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.MESAJLAR_LISTESI">
+              <MappingFragment StoreEntitySet="MESAJLAR_LISTESI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ADISOYADI" ColumnName="ADISOYADI" />
+                <ScalarProperty Name="EPOSTA" ColumnName="EPOSTA" />
+                <ScalarProperty Name="KONU" ColumnName="KONU" />
+                <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OGLE_LISTESI">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.OGLE_LISTESI">
+              <MappingFragment StoreEntitySet="OGLE_LISTESI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="YIYECEK_ADI" ColumnName="YIYECEK_ADI" />
+                <ScalarProperty Name="KALORI_MIKTARI" ColumnName="KALORI_MIKTARI" />
+                <ScalarProperty Name="GRAM" ColumnName="GRAM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SABAH_LISTESI">
+            <EntityTypeMapping TypeName="PROJE_VERITABANIModel.SABAH_LISTESI">
+              <MappingFragment StoreEntitySet="SABAH_LISTESI">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="YIYECEK_ADI" ColumnName="YIYECEK_ADI" />
+                <ScalarProperty Name="KALORI_MIKTARI" ColumnName="KALORI_MIKTARI" />
+                <ScalarProperty Name="GRAM" ColumnName="GRAM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
