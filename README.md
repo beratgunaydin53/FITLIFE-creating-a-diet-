@@ -1,1 +1,4 @@
-first you go through the documents folder and then you can look at the FITLIFE project.
+Fitlife adında bir projem var. Bu projede, kullanıcıdan cinsiyet, yaş, boy, kilo ve günlük attığı adım sayısı gibi bilgileri alarak vücut kitle indeksi (VKİ) değerini otomatik olarak hesaplıyor. VKİ değeri, kişinin mevcut durumunu belirlemek için kullanılıyor.
+Proje, VKİ değeri ve hedeflenen ideal kilo arasındaki farkı hesaplayarak, normal kiloya ulaşmak için gereken günlük kalori miktarını belirliyor. Bu hesaplamalar sonucunda, kullanıcıya 2 haftalık bir diyet listesi sunuyor.
+Bu hesaplamalar, kullanıcının bireysel özelliklerini temel alır ve kişiye özel bir beslenme planı oluşturulmasını sağlar. 2 haftalık diyet listesi, belirlenen günlük kalori miktarına uygun olarak düzenlenir ve içerisinde sağlıklı besin seçenekleri bulunur.
+Fitlife projem, kullanıcıların kilo kontrolü ve sağlıklı beslenme konularında rehberlik etmeyi amaçlamaktadır ve kullanıcıya uygun bir diyet listesi sunar.
